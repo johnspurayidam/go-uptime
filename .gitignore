@@ -1,0 +1,14 @@
+# Go build output
+/backend/server
+*.exe
+
+# SQLite database created when the server runs
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+frontend/node_modules
+frontend/dist
+
+.DS_Store
